@@ -5,8 +5,8 @@ from bayesian import Bayesian
 from frequentist import Frequentist
 
 st.set_page_config(
-    page_title="AB Test Calculator",
-    page_icon="https://rfoxdata.co.uk/assets/favicon/favicon-32x32.png",
+    page_title="CXL AB Test Calculator",
+    page_icon="https://cxl.com/institute/wp-content/uploads/2024/07/cropped-CXL-Logo-512x512-1.png",
 )
 
 roboto = {"fontname": "Roboto", "size": "12"}
@@ -30,8 +30,9 @@ Frequentist testing approach. Below is Bayesian by default._
 """
 
 # Sidebar
+st.sidebar.image("https://cxl.com/institute/wp-content/uploads/2024/07/cropped-CXL-Logo-512x512-1.png")
 st.sidebar.markdown(
-    """
+"""
 ## Approach
 """
 )

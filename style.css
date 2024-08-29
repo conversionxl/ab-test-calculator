@@ -22,3 +22,17 @@
     width: 100px;
     margin: auto
 }
+
+section .sidebar-content { background: #d61f2c !important; color: white; padding: 0rem 1rem !important; }
+
+section .sidebar-content label { color: white; }
+
+section .sidebar-content input { color: black; }
+
+section .sidebar-content input { caret-color: black; }
+
+section .sidebar-content label div { color: white; }
+
+section .sidebar-content .image-container.stImage img { width: 5em; }
+
+header .decoration { height: 0 !important; }
